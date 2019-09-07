@@ -1,0 +1,47 @@
+body	{
+	background-image: url(../../../librerias/img/fondos/8.png);
+	font-family: Arial;
+}
+#logo{
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main-container{
+	margin: 50px;
+	width: 900px;
+}
+
+table {
+	background-color: white;
+	width: 100%;
+}
+
+th, td{
+	padding:20px;
+}
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd; 
+}
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+.modal-header, .footer{
+	padding: 8px 16px;
+	background: #246355;
+	color: #F2F2F2;
+}
+
+button{
+	text-align: center;
+}

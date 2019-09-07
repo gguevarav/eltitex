@@ -1,0 +1,41 @@
+
+/*** LOGIN ***/
+body {
+	background-image: url(../img/fondos/8.png);
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+}
+
+input {
+	padding: 0;
+	margin: 0;
+	border-radius: 10px;
+	background-color: #0033;
+	font-size: 20px;
+	font-weight: auto;
+	font-style: Verdana;
+}
+
+.boton{
+	background-color: #0032;
+	font-size: 20px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
